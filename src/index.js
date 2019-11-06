@@ -1,4 +1,4 @@
-import "./binary_gap";
+import "./OddOccurrencesInArray";
 // function solution(A) {
 //   let notPresent = [];
 //   for (let e of A) {
