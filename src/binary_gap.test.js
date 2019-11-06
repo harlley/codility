@@ -49,6 +49,10 @@ test("solution(1162) = 3", () => {
   expect(solution(1162)).toBe(3); 
 });
 
+test("solution(6291457) = 20", () => { 
+  expect(solution(6291457)).toBe(20); 
+});
+
 /*
 
 n=6=110_2 and n=328=101001000_2 got 1 expected 2
