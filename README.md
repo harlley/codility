@@ -1,2 +1,0 @@
-# codility
-Created with CodeSandbox
