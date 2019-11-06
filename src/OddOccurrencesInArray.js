@@ -32,12 +32,17 @@ all but one of the values in A occur an even number of times.
 
 */
 
+// function solution(A) {
+//   let result = 0;
+//   for (const n of A) {
+//     result = result ^ n;
+//   }
+//   return result;
+// }
+
 function solution(A) {
-  for (const n of A) {
-    if (A.filter(item => item === n).length === 1) {
-      return n;
-    }
-  }
+  return A.reduce((acc, cur) => acc ^ cur );
 }
+
 
 export default solution;
